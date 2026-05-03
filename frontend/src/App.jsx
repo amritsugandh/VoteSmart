@@ -12,10 +12,7 @@ import JourneyPage from '@/features/journey/JourneyPage';
 import VoterRegistration from '@/features/registration/VoterRegistration';
 import FeedbackPage from '@/features/feedback/FeedbackPage';
 import AdminDashboard from '@/features/admin/AdminDashboard';
-import LoadingScreen from '@/components/shared/LoadingScreen';
 import NotFound from '@/components/shared/NotFound';
-import { useState, useEffect } from 'react';
-import { AnimatePresence } from 'framer-motion';
 
 function AppContent() {
   const { t } = useTranslation();
@@ -46,19 +43,9 @@ function AppContent() {
 }
 
 export default function App() {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2000);
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <BrowserRouter>
       <ThemeProvider>
-        <AnimatePresence>
-          {loading && <LoadingScreen key="loader" />}
-        </AnimatePresence>
         <AppContent />
       </ThemeProvider>
     </BrowserRouter>

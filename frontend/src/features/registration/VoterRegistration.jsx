@@ -60,40 +60,40 @@ export default function VoterRegistration() {
       <div className="glass-card reg-form">
         {step === 0 && (
           <motion.div className="form-section" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-            <div className="form-group"><label className="form-label">{t('registration.name')}</label><input className="input" value={form.name} onChange={e => update('name', e.target.value)} /></div>
-            <div className="form-group"><label className="form-label">{t('registration.fatherName')}</label><input className="input" value={form.fatherName} onChange={e => update('fatherName', e.target.value)} /></div>
-            <div className="form-group"><label className="form-label">{t('registration.dob')}</label><input className="input" type="date" value={form.dob} onChange={e => update('dob', e.target.value)} /></div>
-            <div className="form-group"><label className="form-label">{t('registration.gender')}</label>
-              <select className="select" value={form.gender} onChange={e => update('gender', e.target.value)}>
+            <div className="form-group"><label className="form-label" htmlFor="name">{t('registration.name')}</label><input id="name" className="input" value={form.name} onChange={e => update('name', e.target.value)} /></div>
+            <div className="form-group"><label className="form-label" htmlFor="fatherName">{t('registration.fatherName')}</label><input id="fatherName" className="input" value={form.fatherName} onChange={e => update('fatherName', e.target.value)} /></div>
+            <div className="form-group"><label className="form-label" htmlFor="dob">{t('registration.dob')}</label><input id="dob" className="input" type="date" value={form.dob} onChange={e => update('dob', e.target.value)} /></div>
+            <div className="form-group"><label className="form-label" htmlFor="gender">{t('registration.gender')}</label>
+              <select id="gender" className="select" value={form.gender} onChange={e => update('gender', e.target.value)}>
                 <option value="">--</option>
                 <option value="male">{t('registration.male')}</option>
                 <option value="female">{t('registration.female')}</option>
                 <option value="other">{t('registration.other')}</option>
               </select>
             </div>
-            <div className="form-group"><label className="form-label">{t('registration.email')}</label><input className="input" type="email" value={form.email} onChange={e => update('email', e.target.value)} /></div>
-            <div className="form-group"><label className="form-label">{t('registration.phone')}</label><input className="input" type="tel" value={form.phone} onChange={e => update('phone', e.target.value)} /></div>
+            <div className="form-group"><label className="form-label" htmlFor="email">{t('registration.email')}</label><input id="email" className="input" type="email" value={form.email} onChange={e => update('email', e.target.value)} /></div>
+            <div className="form-group"><label className="form-label" htmlFor="phone">{t('registration.phone')}</label><input id="phone" className="input" type="tel" value={form.phone} onChange={e => update('phone', e.target.value)} /></div>
           </motion.div>
         )}
 
         {step === 1 && (
           <motion.div className="form-section" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-            <div className="form-group"><label className="form-label">{t('registration.state')}</label>
-              <select className="select" value={form.state} onChange={e => update('state', e.target.value)}>
+            <div className="form-group"><label className="form-label" htmlFor="state">{t('registration.state')}</label>
+              <select id="state" className="select" value={form.state} onChange={e => update('state', e.target.value)}>
                 <option value="">--</option>
                 {states.map((s, i) => <option key={i} value={s}>{s}</option>)}
               </select>
             </div>
-            <div className="form-group"><label className="form-label">{t('registration.district')}</label><input className="input" value={form.district} onChange={e => update('district', e.target.value)} /></div>
-            <div className="form-group"><label className="form-label">{t('registration.pincode')}</label><input className="input" value={form.pincode} onChange={e => update('pincode', e.target.value)} /></div>
-            <div className="form-group"><label className="form-label">{t('registration.address')}</label><textarea className="textarea" rows={3} value={form.address} onChange={e => update('address', e.target.value)} /></div>
+            <div className="form-group"><label className="form-label" htmlFor="district">{t('registration.district')}</label><input id="district" className="input" value={form.district} onChange={e => update('district', e.target.value)} /></div>
+            <div className="form-group"><label className="form-label" htmlFor="pincode">{t('registration.pincode')}</label><input id="pincode" className="input" value={form.pincode} onChange={e => update('pincode', e.target.value)} /></div>
+            <div className="form-group"><label className="form-label" htmlFor="address">{t('registration.address')}</label><textarea id="address" className="textarea" rows={3} value={form.address} onChange={e => update('address', e.target.value)} /></div>
           </motion.div>
         )}
 
         {step === 2 && (
           <motion.div className="form-section" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-            <div className="form-group"><label className="form-label">{t('registration.idType')}</label>
-              <select className="select" value={form.idType} onChange={e => update('idType', e.target.value)}>
+            <div className="form-group"><label className="form-label" htmlFor="idType">{t('registration.idType')}</label>
+              <select id="idType" className="select" value={form.idType} onChange={e => update('idType', e.target.value)}>
                 <option value="">--</option>
                 <option value="aadhaar">Aadhaar Card</option>
                 <option value="pan">PAN Card</option>
@@ -101,7 +101,7 @@ export default function VoterRegistration() {
                 <option value="driving">Driving License</option>
               </select>
             </div>
-            <div className="form-group"><label className="form-label">{t('registration.idNumber')}</label><input className="input" value={form.idNumber} onChange={e => update('idNumber', e.target.value)} /></div>
+            <div className="form-group"><label className="form-label" htmlFor="idNumber">{t('registration.idNumber')}</label><input id="idNumber" className="input" value={form.idNumber} onChange={e => update('idNumber', e.target.value)} /></div>
           </motion.div>
         )}
 

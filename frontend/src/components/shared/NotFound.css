@@ -1,0 +1,47 @@
+.not-found-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.not-found-card {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 500px;
+  width: 100%;
+}
+
+.error-icon {
+  font-size: 5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.not-found-card h1 {
+  font-size: 5rem;
+  margin: 0;
+  line-height: 1;
+}
+
+.not-found-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.not-found-card p {
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.not-found-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .not-found-actions {
+    flex-direction: column;
+  }
+}

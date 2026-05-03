@@ -1,0 +1,15 @@
+.eligibility-section { text-align: center; }
+.eligibility-subtitle { color: var(--text-secondary); font-size: var(--font-size-sm); margin-bottom: var(--space-lg); }
+.question-card { padding: var(--space-xl) 0; }
+.question-icon { font-size: 3rem; margin-bottom: var(--space-md); }
+.question-text { font-size: var(--font-size-lg); font-weight: 600; margin-bottom: var(--space-xl); }
+.answer-btns { display: flex; gap: var(--space-md); justify-content: center; }
+.answer-btns .btn { min-width: 130px; font-size: var(--font-size-base); padding: 14px 28px; }
+.progress-dots { display: flex; gap: 8px; justify-content: center; margin-top: var(--space-xl); }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: var(--border-color); transition: all var(--transition-base); }
+.dot.active { background: var(--primary); box-shadow: 0 0 8px var(--primary-glow); }
+.result-card { padding: var(--space-xl) 0; }
+.result-title { font-size: var(--font-size-xl); font-weight: 700; margin-bottom: var(--space-sm); }
+.result-success .result-title { color: var(--success); }
+.result-fail .result-title { color: var(--error); }
+.result-card .btn { margin-top: var(--space-md); }

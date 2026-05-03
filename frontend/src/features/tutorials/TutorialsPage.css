@@ -1,0 +1,24 @@
+.tutorials-page h1 { text-align: center; margin-bottom: var(--space-sm); }
+.page-subtitle { text-align: center; color: var(--text-secondary); margin-bottom: var(--space-xl); }
+
+.tutorial-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--space-lg); }
+.tutorial-card { text-align: center; cursor: pointer; padding: var(--space-xl); }
+.tutorial-icon { font-size: 3rem; display: block; margin-bottom: var(--space-md); }
+.tutorial-card h3 { font-size: var(--font-size-md); margin-bottom: 4px; }
+.tutorial-count { font-size: var(--font-size-xs); color: var(--text-muted); }
+
+.tutorial-viewer { padding: var(--space-xl); }
+.tutorial-nav-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-lg); }
+.step-counter { font-size: var(--font-size-sm); color: var(--text-muted); font-weight: 600; }
+.step-content { text-align: center; padding: var(--space-xl) 0; }
+.step-visual { font-size: 4rem; margin-bottom: var(--space-lg); }
+.step-content h2 { font-size: var(--font-size-lg); margin-bottom: var(--space-md); }
+.step-description { font-size: var(--font-size-base); color: var(--text-secondary); max-width: 600px; margin: 0 auto; line-height: 1.8; }
+.read-aloud-btn { margin-top: var(--space-lg); }
+
+.step-progress { display: flex; gap: 6px; margin: var(--space-lg) 0; }
+.progress-segment { flex: 1; height: 4px; border-radius: 2px; background: var(--border-color); transition: background 0.3s; }
+.progress-segment.filled { background: var(--primary); }
+
+.step-nav { display: flex; justify-content: space-between; }
+.step-nav .btn:disabled { opacity: 0.4; cursor: not-allowed; }

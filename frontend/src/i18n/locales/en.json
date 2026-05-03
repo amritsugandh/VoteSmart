@@ -1,0 +1,348 @@
+{
+  "app": {
+    "name": "VoteSmart India",
+    "tagline": "Your Voice, Your Vote",
+    "description": "Your complete guide to participating in the world's largest democracy"
+  },
+  "nav": {
+    "home": "Home",
+    "assistant": "Assistant",
+    "journey": "Journey",
+    "register": "Register",
+    "tutorials": "Tutorials",
+    "feedback": "Feedback",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "profile": "Profile",
+    "admin": "Admin"
+  },
+  "accessibility": {
+    "title": "Accessibility",
+    "fontSize": "Font Size",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "extraLarge": "Extra Large",
+    "highContrast": "High Contrast",
+    "screenReader": "Screen Reader Mode",
+    "readAloud": "Read Aloud",
+    "stopReading": "Stop Reading",
+    "skipToContent": "Skip to main content"
+  },
+  "theme": {
+    "dark": "Dark Mode",
+    "light": "Light Mode",
+    "highContrast": "High Contrast"
+  },
+  "home": {
+    "heroTitle": "Empowering Every Vote",
+    "heroSubtitle": "Your comprehensive guide to participating in the world's largest democracy. Let's make your voice heard.",
+    "stats": {
+      "voters": "900M+",
+      "votersLabel": "Registered Voters",
+      "stations": "1M+",
+      "stationsLabel": "Polling Stations",
+      "age": "18+",
+      "ageLabel": "Voting Age"
+    },
+    "getStarted": "Get Started",
+    "talkToAssistant": "Talk to Assistant",
+    "cards": {
+      "evm": {
+        "title": "What is EVM?",
+        "desc": "Electronic Voting Machines (EVMs) are used in Indian elections to securely record and count votes, replacing the older ballot paper system."
+      },
+      "vvpat": {
+        "title": "VVPAT Explained",
+        "desc": "Voter Verifiable Paper Audit Trail (VVPAT) provides a physical paper slip confirming your vote, ensuring transparency in the process."
+      },
+      "mcc": {
+        "title": "Model Code of Conduct",
+        "desc": "A set of guidelines issued by the Election Commission to regulate political parties and candidates prior to elections."
+      },
+      "eci": {
+        "title": "Role of the ECI",
+        "desc": "The Election Commission of India (ECI) is an autonomous constitutional authority responsible for administering election processes."
+      }
+    }
+  },
+  "chat": {
+    "title": "Kiran",
+    "subtitle": "Election Sahayak / चुनाव सहायक",
+    "online": "Online | Always Here to Help",
+    "thinking": "Kiran is thinking...",
+    "placeholder": "Ask me anything about elections...",
+    "send": "Send",
+    "voiceInput": "Speak your question",
+    "listening": "Listening...",
+    "intro": "Namaste! I'm Kiran, your Indian Election Assistant. Ask me anything about voting, registration, or eligibility. You can also use the 🎙️ button to speak!",
+    "offlineMode": "I'm working in offline mode right now. Here's what I know:",
+    "errorMessage": "I'm having trouble connecting. Please try again in a moment.",
+    "selectState": "Select State",
+    "stateLabel": "Your State:",
+    "quickActions": [
+      {
+        "icon": "🔍",
+        "label": "Check voter list",
+        "query": "How do I check if my name is in the voter list?"
+      },
+      {
+        "icon": "🆔",
+        "label": "Download e-EPIC",
+        "query": "How can I download my e-EPIC card online?"
+      },
+      {
+        "icon": "📍",
+        "label": "Find polling booth",
+        "query": "How do I find my assigned polling booth?"
+      },
+      {
+        "icon": "📝",
+        "label": "New voter register",
+        "query": "What is the step-by-step process to register as a new voter?"
+      },
+      {
+        "icon": "🔄",
+        "label": "Transfer voter ID",
+        "query": "How to transfer my voter ID to a new address?"
+      },
+      {
+        "icon": "📋",
+        "label": "Documents needed",
+        "query": "What documents do I need on election day?"
+      }
+    ],
+    "stateQuery": "I am from {{state}}. What do I need to do to vote here?"
+  },
+  "states": [
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Assam",
+    "Bihar",
+    "Chhattisgarh",
+    "Goa",
+    "Gujarat",
+    "Haryana",
+    "Himachal Pradesh",
+    "Jharkhand",
+    "Karnataka",
+    "Kerala",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Manipur",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Odisha",
+    "Punjab",
+    "Rajasthan",
+    "Sikkim",
+    "Tamil Nadu",
+    "Telangana",
+    "Tripura",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "West Bengal",
+    "Andaman and Nicobar Islands",
+    "Chandigarh",
+    "Dadra and Nagar Haveli and Daman and Diu",
+    "Delhi",
+    "Jammu and Kashmir",
+    "Ladakh",
+    "Lakshadweep",
+    "Puducherry"
+  ],
+  "journey": {
+    "title": "Your Election Journey",
+    "clickPrompt": "Click a step to see details",
+    "steps": [
+      {
+        "label": "Registration",
+        "icon": "📝",
+        "details": [
+          "Visit voters.eci.gov.in",
+          "Fill Form 6 online",
+          "Upload ID & address proof"
+        ]
+      },
+      {
+        "label": "Verification",
+        "icon": "🔍",
+        "details": [
+          "BLO visits for home verification",
+          "Document check by ERO",
+          "Status updates via SMS"
+        ]
+      },
+      {
+        "label": "ID Card",
+        "icon": "🆔",
+        "details": [
+          "EPIC card generated",
+          "Download e-EPIC online",
+          "Delivered via post"
+        ]
+      },
+      {
+        "label": "Election Day",
+        "icon": "🗳️",
+        "details": [
+          "Find your booth",
+          "Carry ID card",
+          "Cast your vote using EVM"
+        ]
+      }
+    ],
+    "nextActions": {
+      "title": "📌 Your Next Actions",
+      "links": [
+        {
+          "icon": "🔍",
+          "label": "Check your name in Voter List",
+          "url": "https://electoralsearch.eci.gov.in",
+          "desc": "Search the official electoral roll"
+        },
+        {
+          "icon": "🆔",
+          "label": "Download e-EPIC Card",
+          "url": "https://voters.eci.gov.in/download-e-epic",
+          "desc": "Get your digital voter ID"
+        },
+        {
+          "icon": "📍",
+          "label": "Find your Polling Booth",
+          "url": "https://electoralsearch.eci.gov.in/pollingstation",
+          "desc": "Locate your assigned station"
+        },
+        {
+          "icon": "📝",
+          "label": "Register as New Voter",
+          "url": "https://voters.eci.gov.in",
+          "desc": "Fill Form 6 online"
+        },
+        {
+          "icon": "🔄",
+          "label": "Correct Voter ID Details",
+          "url": "https://voters.eci.gov.in",
+          "desc": "Update name, address or photo"
+        },
+        {
+          "icon": "📊",
+          "label": "View Election Results",
+          "url": "https://results.eci.gov.in",
+          "desc": "Live & past election data"
+        }
+      ]
+    }
+  },
+  "eligibility": {
+    "title": "Check Your Eligibility",
+    "subtitle": "Answer simple questions to know if you can vote",
+    "q1": "Are you an Indian citizen?",
+    "q2": "Are you 18 years or older?",
+    "q3": "Do you have a valid address proof?",
+    "yes": "Yes",
+    "no": "No",
+    "eligible": "🎉 You are eligible to vote!",
+    "eligibleDesc": "You meet all the requirements. Register now to exercise your right!",
+    "notEligible": "❌ You are not eligible to vote yet",
+    "notEligibleAge": "You need to be 18 years or older to vote in India.",
+    "notEligibleCitizen": "Only Indian citizens can vote in Indian elections.",
+    "notEligibleAddress": "You need a valid address proof. Visit your local BLO for assistance.",
+    "registerNow": "Register Now",
+    "checkAgain": "Check Again"
+  },
+  "registration": {
+    "title": "Voter Registration",
+    "subtitle": "Register as a new voter - Step by step",
+    "step1": "Personal Details",
+    "step2": "Address Details",
+    "step3": "Documents",
+    "step4": "Review & Submit",
+    "name": "Full Name",
+    "fatherName": "Father's/Mother's Name",
+    "dob": "Date of Birth",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "state": "State",
+    "district": "District",
+    "pincode": "Pin Code",
+    "address": "Full Address",
+    "idType": "ID Document Type",
+    "idNumber": "ID Number",
+    "next": "Next Step",
+    "previous": "Previous",
+    "submit": "Submit Registration",
+    "savedOffline": "📱 Saved offline! Will sync when you're back online.",
+    "success": "🎉 Registration submitted successfully!",
+    "successDesc": "Your application has been received. You can track the status from your profile."
+  },
+  "tutorials": {
+    "title": "Learn How to Vote",
+    "subtitle": "Simple step-by-step guides for everyone",
+    "categories": {
+      "registration": "How to Register",
+      "voting": "How to Vote",
+      "evm": "Using the EVM Machine",
+      "online": "Online Services"
+    },
+    "readAloud": "🔊 Read Aloud",
+    "nextStep": "Next Step",
+    "prevStep": "Previous Step"
+  },
+  "feedback": {
+    "title": "Share Your Feedback",
+    "type": "Feedback Type",
+    "types": {
+      "bug": "🐛 Report a Bug",
+      "suggestion": "💡 Suggestion",
+      "general": "💬 General Feedback"
+    },
+    "message": "Your Message",
+    "messagePlaceholder": "Tell us what's on your mind...",
+    "rating": "Rate your experience",
+    "submit": "Submit Feedback",
+    "success": "Thank you for your feedback!",
+    "successDesc": "We appreciate your input and will use it to improve."
+  },
+  "auth": {
+    "loginTitle": "Welcome Back",
+    "loginSubtitle": "Log in to your VoteSmart account",
+    "registerTitle": "Create Account",
+    "registerSubtitle": "Join VoteSmart India today",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Full Name",
+    "login": "Log In",
+    "register": "Create Account",
+    "guestMode": "Continue as Guest",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signUp": "Sign up",
+    "logIn": "Log in"
+  },
+  "footer": {
+    "text": "For more details, visit the official Election Commission website:",
+    "link": "voters.eci.gov.in",
+    "copyright": "© 2026 VoteSmart India. Educational purposes only."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "back": "Back",
+    "offline": "You are offline",
+    "online": "Back online!"
+  },
+  "systemPrompt": "You are an intelligent Election Assistant for India. Your goal is to behave like a smart conversational assistant that understands the user, thinks before answering, and gives helpful, personalized, and actionable responses.\n\nCORE BEHAVIOR:\n1. Understand user intent before answering.\n2. If user provides personal data (age, state, etc.): Use it immediately and give a clear decision (e.g., \"You are eligible ✅\").\n3. Always think: \"What is the best possible helpful answer for this user?\"\n\nRESPONSE STRUCTURE:\n1. ✅ DIRECT ANSWER (first line)\n2. 📌 SHORT EXPLANATION\n3. 🪜 STEP-BY-STEP (if needed)\n4. 🚀 NEXT ACTIONS\n\nPERSONALIZATION:\n- Age -> Check eligibility (18+ rule).\n- State -> Give location-aware guidance.\n- Style -> Natural, conversational, Hinglish if mixed. No robotic tone. No long paragraphs.\n\nIMPORTANT:\n- Stay neutral (no politics).\n- No promotion of parties.\n- Do not make up links. Use voters.eci.gov.in for registration."
+}
